@@ -2,7 +2,7 @@
 'use strict';
 
 var settings = {
-		webserverport : '8080',
+		webserverport : '1508',
 		wwwroot: 'public',
 		pattern_path: 'public/patterns',
 		sourcehtmlfile: 'source.html',
