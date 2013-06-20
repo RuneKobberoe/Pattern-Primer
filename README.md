@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###Overview
 
 Pattern-Primer-on-Node is a node.js port of Jeremy Keith's [Pattern Primer](https://github.com/adactio/Pattern-Primer), which is written in PHP.
@@ -25,3 +26,7 @@ If you want to generate a 'standalone' version of the primer output, then you ca
     node pattern-primer.js --tofile
    
 This will place a standalone html file, and a copy of the 'global.css' file located in `<root>/public` and will place them in `<root>/docs`. You should just be able to navigate to that folder and open the index.html file to see the same output.
+=======
+Pattern-Primer
+==============
+>>>>>>> 5ed905d1cc9bd914799545ac5f23ba8e36a01607
