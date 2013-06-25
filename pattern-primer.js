@@ -3,7 +3,7 @@
 
 var settings = {
 		webserverport : '1508',
-		wwwroot: 'public',
+		wwwroot: '../',
 		pattern_path: 'public/patterns',
 		sourcehtmlfile: 'source.html',
 		tofile_outputpath: 'docs'
@@ -14,7 +14,7 @@ var settings = {
 		tofile = tofile || false;
 
 		var fs = require('fs'),
-			patternFolder = './' + settings.pattern_path,
+			patternFolder = settings.pattern_path,
 			simpleEscaper = function (text) {
 				return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
 			},
