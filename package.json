@@ -1,0 +1,7 @@
+{
+  "name": "1508-Pattern-Primer",
+  "version": "0.1.0",
+  "devDependencies": {
+    "connect": "~1.2.24"
+  }
+}
