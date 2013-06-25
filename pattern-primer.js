@@ -31,7 +31,7 @@ var settings = {
 
 					for (i = 0, l = patterns.length; i < l; i += 1) {
 						file = patterns[i];
-						content += '<div class="pattern"><div class="display">';
+						content += '<div class="pattern"><div class="display"><div class="header">'+file.filename.replace('.html', '')+'</div>';
 						content += file.content;
 					    content += '</div><div class="source"><textarea rows="6" cols="30">';
 					    content += simpleEscaper(file.content);
