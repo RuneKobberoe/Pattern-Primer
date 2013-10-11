@@ -3,7 +3,7 @@
 
 var settings = {
 		webserverport : '1508',
-		wwwroot: '../',
+		wwwroot: '../Pattern-Primer',
 		pattern_path: 'public/patterns',
 		sourcehtmlfile: 'source.html',
 		tofile_outputpath: 'docs'
