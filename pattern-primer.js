@@ -3,7 +3,7 @@
 
 var settings = {
 		webserverport : '1508',
-		wwwroot: '../Pattern-Primer',
+		wwwroot: '/',
 		pattern_path: 'public/patterns',
 		sourcehtmlfile: 'source.html',
 		tofile_outputpath: 'docs'
@@ -124,5 +124,6 @@ if (process.argv[2] === '--tofile') {
 	server.listen(settings.webserverport);
 	util.puts('You can now visit http://localhost:' + settings.webserverport + '/ to see your patterns.');
 	util.puts('To kill this server, just press Ctrl + C');
+	util.puts(settings.pattern_path);
 
 }
